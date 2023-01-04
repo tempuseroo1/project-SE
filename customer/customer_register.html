@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Customer Registration</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link href="registration_style.css" rel="stylesheet" type="text/css">
+		<style>
+			body {background-color:#ffffff;background-image:url(https://wallpaperaccess.com/full/3133177.jpg);background-repeat:no-repeat;background-position:center;background-attachment:fixed;}
+		</style>
+	</head>
+	<body>
+		<div class="register">
+			<h1>Customer Registration</h1>
+			<form action="customer_register.php" method="post" autocomplete="off">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<label for="email">
+					<i class="fas fa-envelope"></i>
+				</label>
+				<input type="email" name="email" placeholder="Email" id="email" required>
+				<input type="submit" value="Register">
+				<input type="reset">
+			</form>
+		</div>
+	</body>
+</html>
